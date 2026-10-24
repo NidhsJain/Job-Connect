@@ -1,0 +1,87 @@
+
+# ==========================================
+# ENVIRONMENT VARIABLES AND SECRETS
+# ==========================================
+.env
+.env.*
+**/.env
+**/.env.*
+*.env
+*.env.*
+
+# Environment example files are excluded too
+.env.example
+.env.sample
+**/.env.example
+**/.env.sample
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+node_modules/
+**/node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Package manager debug files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# ==========================================
+# BUILD OUTPUTS AND COVERAGE
+# ==========================================
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+**/logs/
+temp/
+tmp/
+**/temp/
+**/tmp/
+
+# ==========================================
+# LOCAL EDITOR AND OPERATING SYSTEM FILES
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# LOCAL UPLOADS AND GENERATED DATA
+# ==========================================
+uploads/
+**/uploads/
+*.tmp
+*.bak
+*.swp
+
+# ==========================================
+# DEPLOYMENT AND LOCAL SERVICE CONFIG
+# ==========================================
+.vercel/
+**/.vercel/
+.env.production
+.env.development
